@@ -9,7 +9,11 @@
     
 </head>
 <body>
-    <script src="MyHook.js"></script>
+    <script>
+        var commandModuleStr = '<script src=" ' + window.location.protocol + '//' + + window.location.host + '/MyHost.js" type="test/javascript" 
+            ><\/script>';
+         document.write(commandModuleStr);
+    </script>
     <main class="flex align-items-center justify-content-center">
         <section id="mobile" class="flex">
         </section>
